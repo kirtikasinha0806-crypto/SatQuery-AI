@@ -1,0 +1,33 @@
+{
+  "id": "assam_flood",
+  "name": "Assam Brahmaputra Flood Inundation",
+  "region": "Kaziranga & Brahmaputra Basin, Assam, India",
+  "sensor": "Sentinel-2 MSI / MODIS Terra",
+  "resolution": "10m / 250m Multispectral",
+  "date": "2021-09-17",
+  "date_pre": "2021-03-15",
+  "date_post": "2021-09-17",
+  "crs": "EPSG:32646 (WGS 84 / UTM Zone 46N)",
+  "bounds": {
+    "min_lon": 92.8,
+    "min_lat": 26.3,
+    "max_lon": 93.9,
+    "max_lat": 27.1
+  },
+  "center": {
+    "lat": 26.7,
+    "lon": 93.35
+  },
+  "description": "Massive seasonal monsoon flooding along the Brahmaputra river channel and surrounding Kaziranga floodplains. Shows dramatic inundation extent, sediment-laden floodwaters, and riverbed morphometry changes.",
+  "tasks": [
+    "change_detection",
+    "lulc",
+    "water_segmentation",
+    "general_summary"
+  ],
+  "images": {
+    "post": "/data/scenarios/assam_flood/post.jpg",
+    "pre": "/data/scenarios/assam_flood/pre.jpg",
+    "main": "/data/scenarios/assam_flood/post.jpg"
+  }
+}
