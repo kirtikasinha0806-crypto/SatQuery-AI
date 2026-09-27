@@ -1,0 +1,30 @@
+{
+  "id": "mumbai_port",
+  "name": "Mumbai / JNPT Port & Maritime Activity",
+  "region": "Jawaharlal Nehru Port & Mumbai Harbour, Maharashtra, India",
+  "sensor": "Cartosat-2 / Sentinel-2 High-Res Optical",
+  "resolution": "10m Optical (RGB)",
+  "date": "2024-03-24",
+  "date_pre": null,
+  "date_post": null,
+  "crs": "EPSG:32643 (WGS 84 / UTM Zone 43N)",
+  "bounds": {
+    "min_lon": 72.8,
+    "min_lat": 18.85,
+    "max_lon": 73.05,
+    "max_lat": 19.1
+  },
+  "center": {
+    "lat": 18.95,
+    "lon": 72.95
+  },
+  "description": "Jawaharlal Nehru Port (JNPT) container terminal docks, coastal shipping lanes, anchored vessels in Mumbai offshore anchorages, tidal mudflats, and urban industrial zones.",
+  "tasks": [
+    "object_counting",
+    "lulc",
+    "general_summary"
+  ],
+  "images": {
+    "main": "/data/scenarios/mumbai_port/main.jpg"
+  }
+}
